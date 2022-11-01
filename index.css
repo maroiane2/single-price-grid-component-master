@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+}
+body {
+    background-color: hsl(204, 43%, 93%);
+    Font-size: 16px
+}
+.all-a {
+    margin: 70px auto;
+    background-color: white;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-rows: 231px 200px;
+}
+.all-a .ch-1 {
+    padding: 40px;
+}
+.all-a .ch-1 h2 {
+    color: hsl(179, 70%, 48%);
+}
+.all-a .ch-1 .h-4 {
+    color: hsl(71, 73%, 54%);
+}
+.all-a .ch-1 .h-5 {
+    margin-top: 10px;
+    line-height: 25px;
+    color: hsl(217, 6%, 72%);
+}
+.all-a .ch-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.all-a .ch-2 .ch-si {
+    background-color: hsl(179, 62%, 43%);;
+}
+.all-a .ch-2 .ch-wh {
+    background-color: hsl(179, 65%, 61%);
+}
+.all-a .ch-2 .ch-sw {
+    padding: 40px;
+}
+.all-a .ch-2 .ch-wh p {
+    color: hsl(180, 75%, 89%);
+}
+.all-a .ch-2 .ch-si .ch-up {
+    padding-top: 15px;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    background: hsl(64, 77%, 54%);
+}
+.all-a .ch-2 .ch-si span {
+    display: inline;
+    color: hsl(180, 42%, 68%);
+    
+}
+.all-a .ch-2 .ch-si h4 {
+    font-size: 30px;
+    display: inline;
+    
+}
